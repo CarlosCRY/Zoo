@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Zoo {
     private String name;
-    private Area<Carnivore>[] carniArea;
-    private Area<Herbivore>[] herbiArea;
-    private Area<Animal>[] mixedArea;
+    private Area<Carnivore> carniArea;
+    private Area<Herbivore> herbiArea;
+    private Area<Animal> mixedArea;
 }
